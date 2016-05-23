@@ -1,0 +1,397 @@
+fileFormatVersion: 2
+guid: 855823bbfe7dcd640be03a6d78aa258d
+timeCreated: 1447266331
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayerIdle
+    21300002: PlayerJump1
+    21300004: PlayerPunch
+    21300006: PlayerRun1
+    21300008: PlayerRun2
+    21300010: PlayerRun3
+    21300012: PlayerRun4
+    21300014: PlayerJump2
+    21300016: Dirt1
+    21300018: DirtPlatform
+    21300020: PlayerClimb1
+    21300022: PlayerClimb2
+    21300024: PlayerClimb3
+    21300026: PlayerClimb4
+    21300028: PlayerClimb5
+    21300030: PlayerClimb6
+    21300032: PlayerIdle
+    21300034: PlayerRun5
+    21300036: PlayerRun6
+    21300038: PlayerRun7
+    21300040: PlayerRun8
+    21300042: PlayerClimb7
+    21300044: ClimbCIdle
+    21300046: ClimbC1
+    21300048: ClimbC2
+    21300050: ClimbC3
+    21300052: ClimbC4
+    21300054: ClimbC5
+    21300056: ClimbC6
+    21300058: ClimbC7
+    21300060: ClimbC8
+    21300062: Ruby
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlayerIdle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 240
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerJump1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 241
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerPunch
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 240
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 240
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerClimb3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 229
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 240
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 240
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 240
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerJump2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 230
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerClimb1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 229
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerClimb2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 229
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerClimb4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 229
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerClimb5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 229
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerClimb6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 229
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerClimb7
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 229
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dirt1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 200
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DirtPlatform
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 200
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerRun3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 240
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbCIdle
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 215
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 215
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 215
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 215
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC4
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 215
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 215
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 215
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 215
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ClimbC8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 215
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ruby
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 189
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
