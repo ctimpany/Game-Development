@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{E630DCED-FB98-EC08-70E4-E740A58166BA}</ProjectGuid>
+	<ProjectGuid>{3BD99DA7-BD93-6366-344B-4F2C33A41684}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,44 +45,38 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ItemDatabase.cs" />
-     <Compile Include="Assets\My Files\Scripts\Character2D.cs" />
-     <Compile Include="Assets\My Files\Scripts\CharacterControl2D.cs" />
-     <Compile Include="Assets\My Files\Scripts\Player.cs" />
-     <Compile Include="Assets\My Files\Scripts\StatBarPosition.cs" />
-     <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
-     <Compile Include="Assets\Scripts\BackgroundPropSpawner.cs" />
-     <Compile Include="Assets\Scripts\Bomb.cs" />
-     <Compile Include="Assets\Scripts\BombPickup.cs" />
-     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Destroyer.cs" />
-     <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\Gun.cs" />
-     <Compile Include="Assets\Scripts\HealthPickup.cs" />
-     <Compile Include="Assets\Scripts\LayBombs.cs" />
-     <Compile Include="Assets\Scripts\Pauser.cs" />
-     <Compile Include="Assets\Scripts\PickupSpawner.cs" />
-     <Compile Include="Assets\Scripts\PlayerControl.cs" />
-     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-     <Compile Include="Assets\Scripts\Remover.cs" />
-     <Compile Include="Assets\Scripts\Rocket.cs" />
-     <Compile Include="Assets\Scripts\Score.cs" />
-     <Compile Include="Assets\Scripts\ScoreShadow.cs" />
-     <Compile Include="Assets\Scripts\SetParticleSortingLayer.cs" />
-     <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\Character2D.cs" />
+     <Compile Include="Assets\Scripts\CharacterControl2D.cs" />
+     <Compile Include="Assets\Scripts\Examples\BackgroundParallax.cs" />
+     <Compile Include="Assets\Scripts\Examples\BackgroundPropSpawner.cs" />
+     <Compile Include="Assets\Scripts\Examples\Bomb.cs" />
+     <Compile Include="Assets\Scripts\Examples\BombPickup.cs" />
+     <Compile Include="Assets\Scripts\Examples\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Examples\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Examples\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Examples\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\Examples\Gun.cs" />
+     <Compile Include="Assets\Scripts\Examples\HealthPickup.cs" />
+     <Compile Include="Assets\Scripts\Examples\LayBombs.cs" />
+     <Compile Include="Assets\Scripts\Examples\Pauser.cs" />
+     <Compile Include="Assets\Scripts\Examples\PickupSpawner.cs" />
+     <Compile Include="Assets\Scripts\Examples\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\Examples\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Examples\Remover.cs" />
+     <Compile Include="Assets\Scripts\Examples\Rocket.cs" />
+     <Compile Include="Assets\Scripts\Examples\Score.cs" />
+     <Compile Include="Assets\Scripts\Examples\ScoreShadow.cs" />
+     <Compile Include="Assets\Scripts\Examples\SetParticleSortingLayer.cs" />
+     <Compile Include="Assets\Scripts\Examples\Spawner.cs" />
+     <Compile Include="Assets\Scripts\ItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\StatBarPosition.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>E:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
@@ -93,7 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{89D42EE5-3BC7-3957-82B2-6E0AD6A4EDE5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{6CE57291-629E-3864-A411-B7BA6CCCECCA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

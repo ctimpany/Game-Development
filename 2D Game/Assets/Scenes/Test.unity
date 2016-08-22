@@ -96,7 +96,7 @@ GameObject:
   - 222: {fileID: 49420958}
   - 114: {fileID: 49420957}
   m_Layer: 5
-  m_Name: ExpColour
+  m_Name: StaminaColour
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,9 +116,9 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -.00014449656, y: -5.56558371e-06}
+  m_AnchoredPosition: {x: -86.6501465, y: -5.50000572}
   m_SizeDelta: {x: 173.300003, y: 11}
-  m_Pivot: {x: .5, y: .5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &49420957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,14 +657,14 @@ MonoBehaviour:
   stats:
     maxHP: 100
     maxMP: 100
-    expToNextLevel: 100
+    maxStamina: 100
     level: 1
   health: {fileID: 1137205528}
   mana: {fileID: 2024069188}
-  exp: {fileID: 49420956}
+  stamina: {fileID: 49420956}
   healthText: {fileID: 512452436}
   manaText: {fileID: 1925639179}
-  expText: {fileID: 1439755041}
+  staminaText: {fileID: 1439755041}
   goldText: {fileID: 571643217}
 --- !u!1 &786508926
 GameObject:
@@ -907,7 +907,7 @@ GameObject:
   - 222: {fileID: 1080345427}
   - 114: {fileID: 1080345426}
   m_Layer: 5
-  m_Name: ExpBar
+  m_Name: StaminaBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1439,7 +1439,7 @@ GameObject:
   - 222: {fileID: 1439755042}
   - 114: {fileID: 1439755041}
   m_Layer: 5
-  m_Name: ExpText
+  m_Name: StaminaText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1493,7 +1493,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Exp
+  m_Text: Stamina
 --- !u!222 &1439755042
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2050,9 +2050,9 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -.00014449656, y: -5.56558371e-06}
+  m_AnchoredPosition: {x: -86.6501465, y: -5.49999809}
   m_SizeDelta: {x: 173.300003, y: 11}
-  m_Pivot: {x: .5, y: .5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &2024069189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2097,7 +2097,7 @@ GameObject:
   - 222: {fileID: 2057914902}
   - 114: {fileID: 2057914901}
   m_Layer: 5
-  m_Name: ExpBG
+  m_Name: StaminaBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
