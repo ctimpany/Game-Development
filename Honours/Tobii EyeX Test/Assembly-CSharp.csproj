@@ -46,7 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ChangeColorEdit.cs" />
+     <Compile Include="Assets\Scripts\ChangeColorGaze.cs" />
+     <Compile Include="Assets\Scripts\ChangeColorMouse.cs" />
+     <Compile Include="Assets\Scripts\Core.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Spawn.cs" />
      <Compile Include="Assets\Tobii\EyeTrackingFramework\Components\GazeAware.cs" />
      <Compile Include="Assets\Tobii\EyeTrackingFramework\DataProviders\DataProviderBase.cs" />
      <Compile Include="Assets\Tobii\EyeTrackingFramework\DataProviders\EyePositionDataProvider.cs" />
@@ -99,9 +103,6 @@
      <None Include="Assets\Tobii\Plugins\x86_64\Tobii.EyeX.Client.Net20.xml" />
      <None Include="Assets\Tobii\Plugins\x86\Tobii.EyeX.Client.Net20.xml" />
      <None Include="Assets\Tobii\Readme.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -116,9 +117,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>

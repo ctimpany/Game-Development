@@ -48,7 +48,7 @@ namespace Tobii.EyeTracking
 
             GameObject focusedObject = null;
             RaycastHit hitInfo;
-            if (HitTestFromPoint.FindObjectInWorld(out hitInfo, gazePoint.Screen, camera, MaximumDistance, LayerMask))
+			if (HitTestFromPoint.FindObjectInWorld(out hitInfo, gazePoint.Screen, camera, MaximumDistance, LayerMask))
             {
                 if (GazeFocus.IsFocusableObject(hitInfo.collider.gameObject))
                 {
