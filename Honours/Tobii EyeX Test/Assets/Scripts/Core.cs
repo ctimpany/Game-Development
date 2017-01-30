@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Core : MonoBehaviour {
 
@@ -9,11 +10,15 @@ public class Core : MonoBehaviour {
 	int spawnCount = 0;
 	//public Spawn[] spawnPoints;
 	public List<Spawn> spawnPoints;
+	DateTime timeStart, timeCur;
+	public double timeCooldown;
+	bool onCooldown;
 	// Use this for initialization
 	void Start () {
 		GameObject[] objs = GameObject.FindGameObjectsWithTag("Spawn Point");
 		//spawnPoints = new Spawn[objs.Length];
 		spawnPoints = new List<Spawn>();
+		onCooldown = false;
 		foreach(GameObject obj in objs){
 			Spawn temp = gameObject.AddComponent<Spawn>();
 			temp.spawnPoint = obj;
@@ -33,20 +38,27 @@ public class Core : MonoBehaviour {
 	}
 
 	void checkSpawns(){
-		int rand = Random.Range (0, spawnPoints.Count);
+		int rand = UnityEngine.Random.Range (0, spawnPoints.Count);
 		int i = 0;
+		timeCur = System.DateTime.Now;
+		if (onCooldown && ((timeCur - timeStart).TotalSeconds >= timeCooldown))
+			onCooldown = false;
 		foreach (Spawn spawn in spawnPoints) {
 
 			if (!(spawn.enemy == null)) {
 				Enemy temp = spawn.enemy.GetComponent<Enemy>();
 				if (!(temp.isAlive)) {
+					if (!onCooldown) {
+						onCooldown = true;
+						timeStart = System.DateTime.Now;
+					}
 					Destroy (spawn.enemy);
 					spawnCount--;
 					spawn.isAvailable = true;
 				}
 			}
 
-			if (!(spawnCount == maxSpawns) && spawn.isAvailable && rand == i) {
+			if (!(spawnCount == maxSpawns) && spawn.isAvailable && rand == i && !onCooldown) {
 				GameObject enemy =
 					(GameObject) Instantiate (/*GameObject.Find ("Alien")*/ Resources.Load("Alien"), spawn.spawnPoint.GetComponent<Transform> ().position, Quaternion.identity);
 				spawnCount++;
