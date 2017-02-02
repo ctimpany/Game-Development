@@ -5,29 +5,28 @@ Direct3D:
     Renderer: Intel(R) HD Graphics 510 (ID=0x1906)
     Vendor:   Intel
     VRAM:     2142 MB
-    Driver:   20.19.15.4501
+    Driver:   21.20.16.4552
 Begin MonoManager ReloadAssembly
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
-Loading D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
-- Completed reload, in  0.111 seconds
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: D:\Users\Calum\Documents\Unity Projects\Tobii EyeX Test\Tobii Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\Tobii.EyeX.Client.Net20.dll (this message is harmless)
+Loading C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\Tobii.EyeX.Client.Net20.dll into Unity Child Domain
+- Completed reload, in  0.031 seconds
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Calum\Documents\GitHub\Game-Development\Honours\Tobii EyeX Test\Tobii Test_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
-XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 4.994135 ms
+UnloadTime: 3.931733 ms
 Tobii EyeTracking is running.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -37,4 +36,4 @@ Tobii EyeTracking is shutting down.
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: c4 -> priority: 1 
+  Thread -> id: 25fc -> priority: 1 
