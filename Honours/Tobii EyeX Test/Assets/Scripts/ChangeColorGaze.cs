@@ -13,6 +13,7 @@ using Tobii.EyeTracking;
 public class ChangeColorGaze : MonoBehaviour {
 
     public Color selectionColor;
+	private Enemy enemy;
  
     private GazeAware       _gazeAwareComponent;
     private SpriteRenderer    _meshRenderer;
@@ -26,8 +27,9 @@ public class ChangeColorGaze : MonoBehaviour {
     /// </summary>
     void Start()
     {
+		enemy = this.transform.GetComponentInParent<Enemy>();
         _gazeAwareComponent = GetComponent<GazeAware>();
-		_meshRenderer = this.transform.parent.GetComponent<SpriteRenderer>();
+		_meshRenderer = this.transform.GetComponentInParent<SpriteRenderer>();
         _lerpColor = _meshRenderer.material.color;
         _deselectionColor = Color.white;
     }
@@ -48,7 +50,8 @@ public class ChangeColorGaze : MonoBehaviour {
         {
             SetLerpColor(selectionColor);
 			if (Input.GetKeyDown ("space"))
-				Destroy (this.transform.parent.parent.gameObject);
+				enemy.setAliveState (false);
+			//Destroy (this.transform.parent.parent.gameObject);
         }
         else
         {

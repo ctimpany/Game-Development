@@ -26,8 +26,8 @@ public class ChangeColorMouse : MonoBehaviour {
 	/// </summary>
 	void Start()
 	{
-		enemy = this.transform.parent.parent.GetComponent<Enemy>();
-		_meshRenderer = this.transform.parent.GetComponent<SpriteRenderer>();
+		enemy = this.transform.GetComponentInParent<Enemy>();
+		_meshRenderer = this.transform.GetComponentInParent<SpriteRenderer>();
 		_lerpColor = _meshRenderer.material.color;
 		_deselectionColor = Color.white;
 	}
@@ -47,7 +47,7 @@ public class ChangeColorMouse : MonoBehaviour {
 	void OnMouseOver() {
 		SetLerpColor(selectionColor);
 		if (Input.GetKeyDown ("space"))
-			enemy.isAlive = false;
+			enemy.setAliveState (false);
 			//Destroy (this.transform.parent.parent.gameObject);
 	}
 
